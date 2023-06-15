@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .modal {
@@ -48,6 +49,15 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+ 
+}
+
+.modal{
+  padding: 15px 10px;
+}
+
+.icon {
+  margin: 10px;
 }
 
 button {
@@ -67,3 +77,20 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+.header {
+  font-size: x-large;
+  font-weight: bold;
+  
+}
+
+.flex-container {
+  display: flex;
+}
+
+.item-two {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+}
+

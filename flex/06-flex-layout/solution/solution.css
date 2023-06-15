@@ -38,6 +38,8 @@ button {
 }
 
 .content {
+  /*flex moves everything to the center. It is grow:1 shrink: 1 and basis 0*/
+  /*the growth tells everything to grow by the same amount*/ 
   flex: 1;
   display: flex;
   align-items: center;

@@ -50,19 +50,29 @@ ul {
 /* SOLUTION */
 
 .header {
+  /*makes everything a flex item, so they are no longer stacked on top of eachother */
   display: flex;
+  /*uses the space-between: items are evenly distributed in the line; first item is on the start line, last item on the end line */
   justify-content: space-between;
+  /*adds padding*/
   padding: 8px;
 }
 
 ul {
+  /*turns links from stacked to flex items*/
   display: flex;
   margin: 0;
+  /*decreased padding */
   padding: 0;
+  /*adds gaps to link */
   gap: 16px;
 }
 
-.left, .right {
+/*Created left and right div classes */
+
+
+
+.left , .right {
   display: flex;
   align-items: center;
   gap: 16px;

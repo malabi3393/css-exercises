@@ -46,3 +46,36 @@ a {
 ul {
   list-style-type: none;
 }
+/**/
+
+.header {
+  /* makes stuff next to eachother*/
+  display:flex;
+  /*centers everything on the cross axis*/
+  align-items:center;
+  /*Adds padding between the logo and white space*/
+  padding: 8px;
+  
+
+}
+
+
+ul {
+  /* makes the links themselves next to eachother*/
+  display: flex;
+  /*add gaps between the links*/
+  gap: 16px;
+  
+}
+
+.profile-image{
+  /* the 8x adds space between the profile image and the notification */
+  margin: auto 16px;
+}
+
+.notifications{
+  /* the margin moves both the pf and the notification to the end */
+  margin: auto 0 auto auto;
+  
+
+}
